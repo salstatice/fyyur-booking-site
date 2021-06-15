@@ -1,11 +1,25 @@
-Fyyur
+Fyyur: Artist Booking Site
 -----
+This project is for Udacity Full Stack Web Developer Nanodegree.
+
+Link to project:
+https://fyyur-booking-site.herokuapp.com/
 
 ## Introduction
 
 Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
 
 Your job is to build out the data models to power the API endpoints for the Fyyur site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.
+
+User Story:
+1. A user can successfully execute a Search that queries the database.
+2. A user can view a Venue Page with venue and artist information from the database.
+3. A user can view an Artist Page with venue and artist information from the database.
+4. A user can create new venue listing via the New Venue Page.
+5. A user cannot submit an invalid form submission (e.g. using an invalid State enum, or with required fields missing; missing city, missing name, or missing genre is not required).
+6. A user can create new artist listings via the New Artist Page.
+7. A user cannot submit an invalid form submission (e.g. without required fields)
+8. A user can search for an artist from the venue page, and choose them for a show, specifying a date-time.
 
 ## Overview
 
